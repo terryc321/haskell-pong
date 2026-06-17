@@ -7,7 +7,11 @@
 - [X] Make it move in a controlled fashion with timimgs 
 - - Press w to increase speed of bouncing smiley face 
 - - Press s to decrease speed of bouncing smiley face 
-	  
+
+![smiley](pictures/smiley-2026-06-17_11-32.png) 
+
+![development](pictures/screenshot-2026-06-17_01-43.png) 
+
 
 # 
 
