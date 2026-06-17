@@ -10,6 +10,12 @@
 
 ![smiley](pictures/smiley-2026-06-17_11-32.png) 
 
+wow! the smiley using haskell cabal uses almost 12 gigs , this is not efficient aaaatttt aaallll 
+
+![memory](pictures/memory-usage-smiley-2026-06-17_11-35.png) 
+
+
+
 ![development](pictures/screenshot-2026-06-17_01-43.png) 
 
 
