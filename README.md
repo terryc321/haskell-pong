@@ -1,5 +1,12 @@
 # Pong
 
+## challenges 
+
+[X] Put something on screen 
+[X] Make it move with keyboard input
+[ ] Make it move in a controlled fashion with timimgs 
+
+
 ghcup installed version of cabal 
 
 ```
@@ -99,7 +106,7 @@ here is some emacs code to load some icons , to distract us from the complexity
 
 Here is the first version which responds to W A S D keys and UP DOWN LEFT RIGHT keys 
 
-[pong version 1](pictures/screenshot-2026-06-17_01-43.png)
+[pong version 1](./pictures/screenshot-2026-06-17_01-43.png)
 
 the problem is on every new frame a keyboard state is taken and if W key is pressed the 
 rendered box is moved one pixel left . 
