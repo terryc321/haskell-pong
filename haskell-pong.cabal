@@ -72,8 +72,9 @@ executable haskell-pong
                       containers >= 0.6.7,
                       linear,
                       sdl2,
-                      time >= 1.12.2
-
+                      clock >= 0.8.4
+                      -- time >= 1.12.2
+                      
                       
     -- Directories containing source files.
     hs-source-dirs:   app
