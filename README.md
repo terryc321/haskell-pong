@@ -77,6 +77,38 @@ appLoop renderer = do
   unless qPressed (appLoop renderer)
 ```
 
+can we now get some user interaction to move something up and down the screen. lets see what SDL has to offer 
+inside ghci we can see all exported functions 
+
+```
+:browse SDL 
+```
+
+indeed there are a lot. 
+
+here is some emacs code to load some icons , to distract us from the complexity 
+
+```
+(use-package all-the-icons
+  :ensure t
+  :init
+  (setq all-the-icons-icon-scale 1) ;; Optional: adjust size
+  :custom
+  (all-the-icons-install-fonts t)) ;; This prompts to install fonts on first load
+```
+
+Here is the first version which responds to W A S D keys and UP DOWN LEFT RIGHT keys 
+
+[pong version 1](pictures/screenshot-2026-06-17_01-43.png)
+
+the problem is on every new frame a keyboard state is taken and if W key is pressed the 
+rendered box is moved one pixel left . 
+this all happens far too fast for the human eye to detect what happended , so it looks as though the 
+box jumps from one side of screen to other. 
+
+so we need to figure out how we can control this .
+
+haskell ffi sdl is quite flakey if get one wrong value instead of foreign C Int there is a crash, all see is the word loop , meaning the thing crashed completely somewhere in the game loop 
 
 
 
