@@ -4,7 +4,10 @@
 
 - [X] Put something on screen 
 - [X] Make it move with keyboard input
-- [ ] Make it move in a controlled fashion with timimgs 
+- [X] Make it move in a controlled fashion with timimgs 
+- - Press w to increase speed of bouncing smiley face 
+- - Press s to decrease speed of bouncing smiley face 
+	  
 
 # 
 
